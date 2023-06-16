@@ -1,3 +1,5 @@
 *.ptl filter=lfs diff=lfs merge=lfs -text
 *pt filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
+yolov7-w6.pt filter=lfs diff=lfs merge=lfs -text
+yolov7-w6_training.pt filter=lfs diff=lfs merge=lfs -text
