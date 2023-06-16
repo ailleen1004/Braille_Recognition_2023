@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Braille2023</string>
+    <string name="image_view">Image View</string>
+    <string name="detect">인식</string>
+    <string name="run">인식 중</string>
+    <string name="restart">Restart</string>
+    <string name="select">이미지선택</string>
+</resources>
