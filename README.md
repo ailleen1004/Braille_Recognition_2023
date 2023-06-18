@@ -10,6 +10,6 @@ Implementation of paper - [논문 없으니까 일단 포스터라도](https://d
 
 ## About
 
-Braille2023 : Braille Recognition Application
+[Braille2023](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/Braille2023) : Braille Recognition Application using Android Studio
 
-YOLOv7_custom : Braille Recognition Deep Learning Model
+[YOLOv7_custom](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom) : Braille Recognition Deep Learning Model using YOLOv7
