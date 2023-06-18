@@ -5,6 +5,7 @@ Introduction - [객체 인식 모델과 자연어 처리 기술을 결합한 점
 Reference - [안드로이드에서 YOLO5 모델 실행 예제 프로젝트](https://discuss.pytorch.kr/t/yolo5/379)
 
 
+
 ## About
 
 You have to modify 'Papago Client Id', 'Papago Client Secret', 'GPT-3 API KEY' part in [app/src/main/java/org/pytorch/demo/objectdetection/MainActivity.java](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/Braille2023/app/src/main/java/org/pytorch/demo/objectdetection/MainActivity.java)
@@ -22,11 +23,14 @@ Request request = new Request.Builder()
                 .build();
 ```
 
+
 ## Application Pipeline
 
 <p align="center">
   <img src="https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/Braille2023/pipeline.png">
 </p>
+
+
 
 ## Result
 

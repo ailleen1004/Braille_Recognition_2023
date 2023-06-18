@@ -2,11 +2,14 @@
 
 Reference - [Official YOLOv7](https://github.com/WongKinYiu/yolov7)
 
+
+
 ## Dataset
 
 install - [Braille Train&Validation Dataset](https://drive.google.com/drive/folders/14cNsZTjbizgjo3PVlpCGAQg1vZSgpDP8) // Labeling Tool - [LabelImg](https://github.com/heartexlabs/labelImg) / [사용 방법](https://velog.io/@kimsoohyun/YOLO-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%9D%BC%EB%B2%A8%EB%A7%81%EC%9D%84-%EC%9C%84%ED%95%9C-labelImg-%EC%82%AC%EC%9A%A9%EB%B2%95)
 
 Classes : 28개 (26개 알파벳 소문자표 + 1개 대문자표 + 1개 소문자표)
+
 
 
 **총 Dataset - 8,645개 Images**
@@ -16,9 +19,11 @@ Classes : 28개 (26개 알파벳 소문자표 + 1개 대문자표 + 1개 소문�
 Train : Val = 8 : 2 = 6,904 : 1,741
 
 
+
 ## Modify Official YOLOv7 files
 
 Reference - [Official YOLO v7 Custom Object Detection Tutorial](https://www.youtube.com/watch?v=-QWxJ0j9EY8)
+
 
 
 ### install
@@ -35,6 +40,7 @@ Reference - [Official YOLO v7 Custom Object Detection Tutorial](https://www.yout
 | **YOLOv7-w6** | 1280 | O | yolov7-w6_training.pt | 
 
 
+
 ### files to modify
 
 - [cfg/training/yolov7-w6-custom.yaml](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom/cfg/training/yolov7-w6-custom.yaml) -> dataset class 개수(28) 수정
@@ -44,6 +50,7 @@ Reference - [Official YOLO v7 Custom Object Detection Tutorial](https://www.yout
 - [data/hyp.scratch.custom.yaml](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom/data/hyp.scratch.custom.yaml) -> hyperparameter 조정, flip값 0으로 수정
 
 - [train_aux.py](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom/train_aux.py) -> layer freeze를 위함
+
 
 
 ## Training w. Transfer Learning
@@ -73,6 +80,7 @@ python train_aux.py --workers 8 --device 0 --batch-size 2 --epochs 100 --img 128
 best.pt file : [best.pt](https://drive.google.com/file/d/1iUdwJF_1KrJCmY5DBaTpCDd-8GFX1ayp/view?usp=drive_link)
 
 
+
 ## Testing
 
 ``` shell
@@ -82,6 +90,7 @@ python detect.py --weights run/train/yolov7-w6-custom/weights/best.pt --conf 0.1
 점자 알파벳 당 평균 정확도 0.91% 달성
 
 자세한 결과는 [run/detect](https://github.com/ailleen1004/Braille_Recognition_2023/tree/main/YOLOv7_custom/run/detect) 참고
+
 
 
 ## Export
