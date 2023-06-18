@@ -87,8 +87,9 @@ best.pt file : [best.pt](https://drive.google.com/file/d/1iUdwJF_1KrJCmY5DBaTpCD
 ``` shell
 python detect.py --weights run/train/yolov7-w6-custom/weights/best.pt --conf 0.1 --img-size 1280 --source detect
 ```
+
 <p align="center">
-  <img src="https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom/detect/AI_application.jpg">
+  <img src="https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom/run/detect/AI_applications.jpg">
 </p>
 
 점자 알파벳 당 평균 정확도 0.91% 달성
