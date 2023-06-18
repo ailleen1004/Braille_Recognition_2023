@@ -309,8 +309,13 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             myGPT = findViewById(R.id.gpt);
             String getresult;
             //////네이버 API
+
             String clientId = "your own papago Client ID";     //애플리케이션 클라이언트 아이디값";
             String clientSecret = "your own papago Client Secret";      //애플리케이션 클라이언트 시크릿값";
+
+            String clientId = "ClientID";     //애플리케이션 클라이언트 아이디값";
+            String clientSecret = "ClientSecret";      //애플리케이션 클라이언트 시크릿값";
+
             try {
                 String text = myGPT.getText().toString();  /// 번역할 문장 Edittext  입력
                 String apiURL = "https://openapi.naver.com/v1/papago/n2mt";
