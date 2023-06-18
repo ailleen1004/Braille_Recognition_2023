@@ -2,7 +2,7 @@
 
 Reference - [Official YOLOv7](https://github.com/WongKinYiu/yolov7)
 
-
+<br/>
 
 ## Dataset
 
@@ -10,7 +10,7 @@ install - [Braille Train&Validation Dataset](https://drive.google.com/drive/fold
 
 Classes : 28개 (26개 알파벳 소문자표 + 1개 대문자표 + 1개 소문자표)
 
-  
+<br/> 
 
 #### 총 Dataset - 8,645개 Images
 
@@ -24,7 +24,7 @@ Train : Val = 8 : 2 = 6,904 : 1,741
 
 Reference - [Official YOLO v7 Custom Object Detection Tutorial](https://www.youtube.com/watch?v=-QWxJ0j9EY8)
 
-  
+<br/>
 
 ### install
 
@@ -39,7 +39,7 @@ Reference - [Official YOLO v7 Custom Object Detection Tutorial](https://www.yout
 | **YOLOv7-w6** | 1280 | X | yolov7-w6.pt | 
 | **YOLOv7-w6** | 1280 | O | yolov7-w6_training.pt | 
 
-  
+<br/>
 
 ### files to modify
 
@@ -51,7 +51,7 @@ Reference - [Official YOLO v7 Custom Object Detection Tutorial](https://www.yout
 
 - [train_aux.py](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom/train_aux.py) -> layer freeze를 위함
 
-  
+<br/>
 
 ## Training w. Transfer Learning
 
@@ -63,7 +63,8 @@ YOLOv7_custom 폴더 경로에서 모델 학습 진행
 # freeze 47 : freeze YOLOv7-w6 Backbone Layers
 python train_aux.py --workers 8 --device 0 --batch-size 2 --epochs 100 --img 1280 1280 --data custom_data.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/yolov7-w6-custom.yaml --name yolov7-w6-custom --weights yolov7-w6_training.pt --freeze 47
 ```
-  
+
+<br/>
 
 ### Result
 
@@ -79,7 +80,7 @@ python train_aux.py --workers 8 --device 0 --batch-size 2 --epochs 100 --img 128
 
 best.pt file : [best.pt](https://drive.google.com/file/d/1iUdwJF_1KrJCmY5DBaTpCDd-8GFX1ayp/view?usp=drive_link)
 
-  
+<br/>
 
 ## Testing
 
@@ -91,7 +92,7 @@ python detect.py --weights run/train/yolov7-w6-custom/weights/best.pt --conf 0.1
 
 자세한 결과는 [run/detect](https://github.com/ailleen1004/Braille_Recognition_2023/tree/main/YOLOv7_custom/run/detect) 참고
 
-  
+<br/>
 
 ## Export
 
