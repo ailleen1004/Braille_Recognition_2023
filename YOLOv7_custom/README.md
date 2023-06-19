@@ -69,7 +69,7 @@ python train_aux.py --workers 8 --device 0 --batch-size 2 --epochs 100 --img 128
 ### Result
 
 | Model | workers | device | batch size | image size | learning rate(lr0) | freeze | epochs | mAP@0.5 | mAP@0.5:0.95 | 
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
 | **YOLOv7-w6** | 8 | 0 | 2 | 1280 | 0.00125 | 47 | 100 | **0.93%** | **0.67%** | 
 
 <p align="center">
