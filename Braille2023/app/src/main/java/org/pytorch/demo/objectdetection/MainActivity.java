@@ -81,8 +81,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
     private Button button01;
     /////////////
     private int mImageIndex = 0;
-    private String[] mTestImages = {"AI_applications.jpg", "June_6th.jpg", "Thank_you.jpg"};
-
+    private String[] mTestImages = {"AI_applications.jpg", "__.png", "She_loves_Inha1.jpg"};
     private ImageView mImageView;
     private ResultView mResultView;
     private Button mButtonDetect;
@@ -190,7 +189,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             TextView myTextView = (TextView) findViewById(R.id.textView);
             String inputText = myTextView.getText().toString().trim();
 
-            String question = "Please correct the following text with no comments: " + inputText;
+            String question = "Correct the following text with no comments and please don't ignore the number and make sure to print it out in the results : " + inputText;
 
             addToChat(question,Message.SENT_BY_ME);
             callAPI(question);
@@ -310,11 +309,8 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             String getresult;
             //////네이버 API
 
-            String clientId = "your own papago Client ID";     //애플리케이션 클라이언트 아이디값";
-            String clientSecret = "your own papago Client Secret";      //애플리케이션 클라이언트 시크릿값";
-
-            String clientId = "ClientID";     //애플리케이션 클라이언트 아이디값";
-            String clientSecret = "ClientSecret";      //애플리케이션 클라이언트 시크릿값";
+            String clientId = "2fnolGAxXU3T61cNWaPj";     //애플리케이션 클라이언트 아이디값";
+            String clientSecret = "caAcPzVKDZ";      //애플리케이션 클라이언트 시크릿값";
 
             try {
                 String text = myGPT.getText().toString();  /// 번역할 문장 Edittext  입력
@@ -576,7 +572,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         RequestBody body = RequestBody.create(jsonBody.toString(), JSON);
         Request request = new Request.Builder()
                 .url("https://api.openai.com/v1/completions")
-                .header("Authorization", "Bearer <your own API KEY>")
+                .header("Authorization", "Bearer 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")
                 .post(body)
                 .build();
 
