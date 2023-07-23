@@ -27,3 +27,7 @@ Implementation of paper - [딥러닝 기반 점자 인식 모델을 이용한 �
 ["AI Applications" Braille Recognition in Application with Android TalkBack](https://youtube.com/shorts/pqM6NC-Q7Zo?feature=share)
 
 ["June 6th" Braille Recognition in Application with Android TalkBack](https://youtube.com/shorts/IWUtWdu1-p0?feature=share)
+
+<br/>
+### Grade
+2023-1학기 인하대학교 정보통신종합설계 최우수상
