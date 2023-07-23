@@ -30,4 +30,5 @@ Implementation of paper - [딥러닝 기반 점자 인식 모델을 이용한 �
 
 <br/>
 ### Grade
+
 2023-1학기 인하대학교 정보통신종합설계 최우수상
