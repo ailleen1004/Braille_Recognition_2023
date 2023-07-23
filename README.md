@@ -16,6 +16,8 @@ Implementation of paper - [딥러닝 기반 점자 인식 모델을 이용한 �
 
 [Braille2023](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/Braille2023) : Braille Recognition Application using Android Studio
 
+[Model_Comparison](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/Model_Comparison) : Compare models under different conditions and find models with optimal performance
+
 [YOLOv7_custom](https://github.com/ailleen1004/Braille_Recognition_2023/blob/main/YOLOv7_custom) : Braille Recognition Deep Learning Model using YOLOv7
 
 <br/>
