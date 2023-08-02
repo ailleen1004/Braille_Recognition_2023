@@ -78,8 +78,6 @@ python train_aux.py --workers 8 --device 0 --batch-size 2 --epochs 100 --img 128
 
 자세한 결과는 [run/train/yolov7-w6-custom](https://github.com/ailleen1004/Braille_Recognition_2023/tree/main/YOLOv7_custom/run/train/yolov7-w6-custom)
 
-best.pt file : [best.pt](https://drive.google.com/file/d/1iUdwJF_1KrJCmY5DBaTpCDd-8GFX1ayp/view?usp=drive_link)
-
 <br/>
 
 ## Testing
